@@ -7,8 +7,9 @@ public class CompareStrings {
     if (s1.equals(s2)) {
     	System.out.println("These two strings are equal");
     	return true;
-    }
+    }else {
        System.out.println("These two strings aren't equal"); 
 	return false;
     }
+}
 }
