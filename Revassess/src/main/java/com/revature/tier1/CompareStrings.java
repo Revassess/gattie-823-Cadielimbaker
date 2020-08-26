@@ -4,10 +4,10 @@ public class CompareStrings {
 
     public static boolean compareStrings(String s1, String s2){
     	
-    	String string1 = "hello";
-    	String string2 = "goodbye";
-    	
-    	System.out.println(string1.compareTo(string2));
-        return false;
+    if (s1.equals(s2)) {
+    	System.out.println("These two strings are equal");
+    }
+        
+	return false;
     }
 }
