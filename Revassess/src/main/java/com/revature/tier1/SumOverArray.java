@@ -1,5 +1,6 @@
 package com.revature.tier1;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class SumOverArray {
@@ -26,4 +27,4 @@ public class SumOverArray {
 		}
 		return sum;
 	}
-}
+}//could use a stream
